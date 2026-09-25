@@ -6,12 +6,12 @@ Repositori ini berisi implementasi program Java untuk Sistem Manajemen Aset IT s
 Program ini mensimulasikan pengelolaan data Aset IT (seperti Server, Router, Switch, PC) menggunakan konsep Java Collections Framework (JCF). Program mendukung operasi dasar CRUD (Create, Read, Delete) di dalam memori menggunakan ArrayList dan pencarian/penghapusan data secara aman memanfaatkan Iterator.
 
 🛠️ Fitur Utama
-Pemodelan Objek Aset IT (AsetIT.java): Menyimpan atribut aset seperti idAset, namaPerangkat, lokasi, dan statusKondisi.
-Manajemen Koleksi Data (ManajemenAset.java):
-Tambah Data (Create): Menambahkan objek aset baru ke dalam ArrayList.
-Tampil Data (Read): Menampilkan seluruh daftar aset menggunakan perulangan For-Each.
-Hapus Data (Delete): Menghapus aset berdasarkan idAset menggunakan Iterator untuk menghindari ConcurrentModificationException. Serta memberikan peringatan jika ID tidak ditemukan.
-Simulasi Main (MainAset.java): Menguji seluruh alur eksekusi program dari penambahan 4 data awal hingga pembuktian penghapusan data.
+1. Pemodelan Objek Aset IT (AsetIT.java): Menyimpan atribut aset seperti idAset, namaPerangkat, lokasi, dan statusKondisi.
+2. Manajemen Koleksi Data (ManajemenAset.java):
+   - Tambah Data (Create): Menambahkan objek aset baru ke dalam ArrayList.
+   - Tampil Data (Read): Menampilkan seluruh daftar aset menggunakan perulangan For-Each.
+   - Hapus Data (Delete): Menghapus aset berdasarkan idAset menggunakan Iterator untuk menghindari ConcurrentModificationException. Serta      memberikan peringatan jika ID tidak ditemukan.
+3. Simulasi Main (MainAset.java): Menguji seluruh alur eksekusi program dari penambahan 4 data awal hingga pembuktian penghapusan data.
 
 📁 Struktur Direktori
 src/
@@ -21,16 +21,15 @@ src/
 
 
 🚀 Cara Menjalankan Program
-Clone repositori ini:
+1. Clone repositori ini:
 git clone https://github.com/rafikbadilah99-blip/Praktikum4-PBO.git
-cd nama-repo
+cd Praktikum4-PBO
 
-Kompilasi semua file Java:
+2. Kompilasi semua file Java:
 javac src/*.java
 
-Jalankan program utama:
+3. Jalankan program utama:
 java -cp src MainAset
-
 (Atau buka proyek melalui IDE seperti NetBeans/Eclipse/VS Code lalu jalankan MainAset.java secara langsung).
 
 🖥️ Contoh Output Console
@@ -49,6 +48,12 @@ A02 | Router Mikrotik | Lokasi: Lab Komputer | Kondisi: Baik
 A04 | PC Client | Lokasi: Lab Multimedia | Kondisi: Baik
 
 
-👨‍💻 Penulis
+🎓 Identitas Praktikum & Kontributor
 Nama: Rafik Badilah
-Mata Kuliah: Pemrograman Berorientasi Objek (PBO)-Praktikum 4
+NIM: L0325009
+Mata Kuliah: Pemrograman Berorientasi Objek (PBO)
+Modul: Modul 4 - Java Collections Framework & Operasi CRUD
+Dosen Pengampu: Fadillah Siva, S.Kom., M.Cs.
+Asisten Praktikum:
+1. Azfa Rahma Putra Susanto
+2. Indra Fata Azhari
