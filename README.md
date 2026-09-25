@@ -22,7 +22,7 @@ src/
 
 🚀 Cara Menjalankan Program
 Clone repositori ini:
-git clone https://github.com/username-anda/nama-repo.git
+git clone https://github.com/rafikbadilah99-blip/Praktikum4-PBO.git
 cd nama-repo
 
 Kompilasi semua file Java:
