@@ -67,6 +67,7 @@ src/
     ├── ManajemenAset.java  # Class pengelola koleksi (List & Iterator)
     └── MainAset.java       # Class utama untuk menjalankan simulasi
 
+```
 -----
 
 ## 🚀 Cara Menjalankan Program
@@ -83,7 +84,7 @@ java -cp src MainAset
 
 -----
 
-### 🖥️ Contoh Output Console
+## 🖥️ Contoh Output Console
 === DAFTAR ASET IT (AWAL) ===
 A01 | Server Dell | Lokasi: Ruang Server | Kondisi: Baik
 A02 | Router Mikrotik | Lokasi: Lab Komputer | Kondisi: Baik
