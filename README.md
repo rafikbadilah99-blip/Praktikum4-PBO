@@ -109,5 +109,5 @@ A04 | PC Client | Lokasi: Lab Multimedia | Kondisi: Baik
 * Modul: Modul 4 - Java Collections Framework & Operasi CRUD
 * Dosen Pengampu: Fadillah Siva, S.Kom., M.Cs.
 * Asisten Praktikum:
-1. Azfa Rahma Putra Susanto
-2. Indra Fata Azhari
+1. **Azfa Rahma Putra Susanto
+2. **Indra Fata Azhari
