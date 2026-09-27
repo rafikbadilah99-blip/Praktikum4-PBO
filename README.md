@@ -85,6 +85,7 @@ java -cp src MainAset
 -----
 
 ## 🖥️ Contoh Output Console
+```text
 === DAFTAR ASET IT (AWAL) ===
 A01 | Server Dell | Lokasi: Ruang Server | Kondisi: Baik
 A02 | Router Mikrotik | Lokasi: Lab Komputer | Kondisi: Baik
@@ -101,12 +102,14 @@ A04 | PC Client | Lokasi: Lab Multimedia | Kondisi: Baik
 
 -----
 
+```
+
 ### 🎓 Identitas Praktikum & Kontributor
-Nama: Rafik Badilah
-NIM: L0325009
-Mata Kuliah: Pemrograman Berorientasi Objek (PBO)
-Modul: Modul 4 - Java Collections Framework & Operasi CRUD
-Dosen Pengampu: Fadillah Siva, S.Kom., M.Cs.
-Asisten Praktikum:
+*Nama: Rafik Badilah
+*NIM: L0325009
+*Mata Kuliah: Pemrograman Berorientasi Objek (PBO)
+*Modul: Modul 4 - Java Collections Framework & Operasi CRUD
+*Dosen Pengampu: Fadillah Siva, S.Kom., M.Cs.
+*Asisten Praktikum:
 1. Azfa Rahma Putra Susanto
 2. Indra Fata Azhari
